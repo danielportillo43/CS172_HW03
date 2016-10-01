@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1420EEBA1D9DC38400381DDE /* EvenNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1420EEB81D9DC38400381DDE /* EvenNumber.cpp */; };
+		1420EEBD1D9F8CC400381DDE /* Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1420EEBB1D9F8CC400381DDE /* Sort.cpp */; };
+		1420EEC01D9F901E00381DDE /* MyInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1420EEBE1D9F901E00381DDE /* MyInteger.cpp */; };
 		14C14EB91D94945200E774EC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14C14EB81D94945200E774EC /* main.cpp */; };
 		14DDD3DF1D9C6BF300851AEE /* Fan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14DDD3DD1D9C6BF300851AEE /* Fan.cpp */; };
 		14DDD3E21D9CD17800851AEE /* Algebra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14DDD3E01D9CD17800851AEE /* Algebra.cpp */; };
@@ -28,6 +30,9 @@
 /* Begin PBXFileReference section */
 		1420EEB81D9DC38400381DDE /* EvenNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EvenNumber.cpp; sourceTree = "<group>"; };
 		1420EEB91D9DC38400381DDE /* EvenNumber.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EvenNumber.hpp; sourceTree = "<group>"; };
+		1420EEBB1D9F8CC400381DDE /* Sort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sort.cpp; sourceTree = "<group>"; };
+		1420EEBE1D9F901E00381DDE /* MyInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyInteger.cpp; sourceTree = "<group>"; };
+		1420EEBF1D9F901E00381DDE /* MyInteger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MyInteger.hpp; sourceTree = "<group>"; };
 		14C14EB51D94945200E774EC /* Homework-03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Homework-03"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C14EB81D94945200E774EC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14DDD3DD1D9C6BF300851AEE /* Fan.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fan.cpp; sourceTree = "<group>"; };
@@ -73,6 +78,9 @@
 				14DDD3E11D9CD17800851AEE /* Algebra.hpp */,
 				1420EEB81D9DC38400381DDE /* EvenNumber.cpp */,
 				1420EEB91D9DC38400381DDE /* EvenNumber.hpp */,
+				1420EEBB1D9F8CC400381DDE /* Sort.cpp */,
+				1420EEBE1D9F901E00381DDE /* MyInteger.cpp */,
+				1420EEBF1D9F901E00381DDE /* MyInteger.hpp */,
 			);
 			path = "Homework-03";
 			sourceTree = "<group>";
@@ -133,10 +141,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1420EEC01D9F901E00381DDE /* MyInteger.cpp in Sources */,
 				14DDD3E21D9CD17800851AEE /* Algebra.cpp in Sources */,
 				14C14EB91D94945200E774EC /* main.cpp in Sources */,
 				1420EEBA1D9DC38400381DDE /* EvenNumber.cpp in Sources */,
 				14DDD3DF1D9C6BF300851AEE /* Fan.cpp in Sources */,
+				1420EEBD1D9F8CC400381DDE /* Sort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
